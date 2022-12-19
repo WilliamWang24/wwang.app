@@ -1,6 +1,7 @@
 
 body {
-    background-color: #F1F2F6;
+    background-color: #22232a;
+    color: white;
 }
 h1 {
     font-weight: 900;
@@ -13,7 +14,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #github {
@@ -131,14 +132,14 @@ h6 {
     height: 2px;
     bottom: 0px;
     left: 0;
-    color: black;
-    background-color: black;
+    color: white;
+    background-color: white;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
   
   .hover-underline-animation:hover::after {
-    color: black;
+    color: white;
     transform: scaleX(1);
     transform-origin: bottom left;
   }
@@ -146,7 +147,7 @@ h6 {
   .hover-underline-animation {
     display: inline-block;
     position: relative;
-    color: black;
+    color: white;
   }
 
   #contact-info {
@@ -161,8 +162,8 @@ h6 {
   }
 
   .gradient {
-    background-image: linear-gradient(45deg, #3d5a80, #ee6c4d);
-    -webkit-background-clip: text;
+    background-image: linear-gradient(45deg, #c9def4, #f5ccd4, #b8a4c9);
+    background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
